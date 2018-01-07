@@ -3,7 +3,7 @@ var men = ['Piotrek', 'Fredek', 'Stefan', 'Franek'];
 
 var allMen = women.concat(men);
 
-var addName = 'Tadek';
+var addName = 'Iza';
 var indexOfname = allMen.indexOf(addName);
 
 if (allMen[indexOfname] == addName) {
