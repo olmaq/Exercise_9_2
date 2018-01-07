@@ -4,7 +4,7 @@ var men = ['Piotrek', 'Fredek', 'Stefan', 'Franek'];
 var allMen = women.concat(men);
 console.log(allMen);
 
-var addName = 'Tadek';
+var addName = 'Kasia';
 var indexOfname = allMen.indexOf(addName);
 if (allMen[indexOfname] == addName) {
 		console.log('Name already exists');
