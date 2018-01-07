@@ -2,12 +2,12 @@ var women = ['Iza', 'Gosia', 'Krysia', 'Ala'];
 var men = ['Piotrek', 'Fredek', 'Stefan', 'Franek'];
 
 var allMen = women.concat(men);
+console.log(allMen);
 
-var addName = 'Iza';
+var addName = 'Tadek';
 var indexOfname = allMen.indexOf(addName);
-
 if (allMen[indexOfname] == addName) {
-		console.log('Name already exists') && console.log(allMen);
+		console.log('Name already exists');
 	} else {
 		allMen.push(addName) && console.log(allMen);
 };
